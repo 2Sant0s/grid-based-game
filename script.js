@@ -89,7 +89,7 @@ class Character {
 
 class Player extends Character {
     constructor(field) {
-        super(field, 0, 0, '🧙‍♂️');
+        super(field, 0, 0, '🧙🏾‍♂️');
     }
 }
 
@@ -123,7 +123,7 @@ class Npc extends Character {
 }
 
 function startField() {
-    // Garante que cols e rows sejam no mínimo 3 ** corrigir essa bagunça
+    // Garante que cols e rows sejam no mínimo 3  (corrigir essa bagunça)
     var cols = parseInt(document.querySelector('#cols').value) || 3;
     var rows = parseInt(document.querySelector('#rows').value) || 3;
 
@@ -136,7 +136,7 @@ function startField() {
 
     try {
         player = new Player(field);
-        new Npc(field); // Agora funciona corretamente
+        new Npc(field);
     } catch (e) {
         console.log('Campo inválido. Reiniciando...');
         startField();
