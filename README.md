@@ -24,7 +24,7 @@
 
 <!-- about -->
 <h2 id="about">☁️ About</h2>
-<p>This project is a grid-based game build with JavaScript for web browsers. It allows users to set the grid size and control a player character using the W, A, S, and D keys to move around.
+<p>Grid-based game build with JavaScript for web browsers. It allows users to set the grid size and control a player character using the W, A, S, and D keys to move around.
 </p>
 
 <!-- sobre -->
